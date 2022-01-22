@@ -1,0 +1,39 @@
+img{
+    margin-left: 40px; 
+    margin-top: 30px; 
+}
+.div1{
+    position: relative;
+    text-align: start;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.list{
+    position: relative;
+    background-color: honeydew;
+    width: 350px;
+}
+.list ul{
+    position: relative;
+    padding: 20px;
+}
+.list ul li{
+    position: relative;
+    list-style: none;
+    padding: 15px 0;
+    border-bottom: 1px solid rgb(233, 224, 224);
+    
+}
+.list ul li:last-child{
+    border-bottom: none;
+}
+.list ul li label{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
